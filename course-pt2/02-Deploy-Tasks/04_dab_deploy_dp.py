@@ -50,7 +50,3 @@
 # MAGIC 1. Change a transformation in `transformations/revenue.py`, e.g. the rounding in `revenue_per_inhabitant`.
 # MAGIC 2. Press **Deploy** again and rerun the pipeline.
 # MAGIC
-# MAGIC ## Task: Deploy to prod
-# MAGIC
-# MAGIC Select the target `prod` and press **Deploy**. Prod resources get no prefix, so the schema becomes
-# MAGIC `acme_transport_taxinyc.dprevenue`. Prod is shared, so only one copy exists. See the prod deploy task later.
